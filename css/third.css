@@ -1,0 +1,62 @@
+.description {
+    font-family: 'Poppins';
+    font-size: 18px;
+    font-weight: lighter;
+    color: #2E0074;
+    margin-left: 5px;
+    width: 400px;
+    padding-top: 40px;
+    padding-bottom: 80px;
+}
+
+.reviews{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.review {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+}
+
+.review-image-wrapper{
+    height: 100%;
+    position: relative;
+    width: 200px;
+}
+
+.review-image-wrapper img {
+    height: 100%;
+    width: 200px;
+    object-fit: cover;
+}
+
+.review-content {
+    padding: 0px 40px;
+}
+
+.review-content h4 {
+    font-family: 'Poppins';
+    color: #2E0074;
+}
+
+.review-content p {
+    font-family: 'Poppins';
+    color: #2E0074;
+    font-size: 10px;
+}
+
+.review-content h6 {
+    font-family: 'Poppins';
+    color: #2E0074;
+    font-size: 12px;
+    font-weight: lighter;
+    padding-top: 15px;
+}
